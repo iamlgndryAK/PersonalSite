@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    text-align: center;    /* align all the element in the body to center */
+    font-family: 'Shizuru', cursive;
+    color: #40514E;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top {
+    background-color: #FFFBE9;
+    color: #66BFBF;
+}
+
+h1 {
+
+    /* in this case, we can use margin */
+    margin: 50px auto 0 auto;    /* top right bottom left */
+
+    font-size: 500%;    /* 100% means 16px */
+    font-size: 5em;     /* 1em means 16px */
+    font-size: 5rem;    /* root em is same as em but it avoids multiplying with parent font size */
+    /* rem recommended instead of all */
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #EAF6F6;
+    margin: 100px auto 100px auto;
+    border-width: 0.5rem;
+    width: 5%;
+}
+
+a {
+    font-family: monospace;
+    color: #11999E;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.bottom_cloud {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.top_cloud {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+p {
+    font-family: cursive;
+    color: #40514E;
+    line-height: 2;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.mountain {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.aadil_image {
+    height: 300px;
+    width: 300px;
+
+}
+
+.skill_row {
+    width: 50%;     /* by setting width, we can't center it by text-align */
+    margin: 100px auto 100px auto ;   /* by using auto on both side, it will center the element */
+    text-align: left;
+
+}
+
+.skill_image1 {
+    width: 25%;
+    float: left;    /* align the image left of all the content of the division */
+    margin-right: 30px;
+}
+
+.skill_image2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+   /* Pasted code for button */
+   /* https://css3buttongenerator.com/ */
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+
+.contact_message {
+    width: 40%;
+    margin: 40px auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
